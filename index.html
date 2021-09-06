@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORMAL CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+  
+    </head>
+<body  >
+    <div id="All" >
+        <div style="margin-top: 5px;font-size: large;color: aliceblue;" >SIMPLE CALCULATOR</div>
+         <input type="text" id="screen" disabled style="background-color: aliceblue;" >
+    <div><button  onclick="document.getElementById('screen').value +='1'" >1</button>
+        <button onclick="document.getElementById('screen').value +='2'" >2</button>
+        <button onclick="document.getElementById('screen').value +='3'" >3</button></div>
+
+    <div><button onclick="document.getElementById('screen').value +='4'" >4</button>
+        <button onclick="document.getElementById('screen').value +='5'" >5</button>
+        <button onclick="document.getElementById('screen').value +='6'" >6</button></div>
+
+    <div><button onclick="document.getElementById('screen').value +='7'" >7</button>
+    <button onclick="document.getElementById('screen').value +='8'" >8</button>
+    <button onclick="document.getElementById('screen').value +='9'" >9</button></div>
+
+    <div><button onclick="document.getElementById('screen').value +='/'" >/</button>
+    <button onclick="document.getElementById('screen').value +='+'" >+ </button>
+    <button onclick="document.getElementById('screen').value +='-'" >-</button>
+</div>
+<div>    <button onclick="document.getElementById('screen').value = eval(document.getElementById('screen').value)" >= </button>
+    <button onclick="document.getElementById('screen').value =''" >clear</button>
+    <button onclick="document.getElementById('screen').value +='*'" >X</button>
+</div></div>
+</body>
+
+</html>

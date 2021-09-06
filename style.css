@@ -1,0 +1,43 @@
+#All{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    margin-left: 610px;
+    margin-top: 200px;
+    margin-right: 610px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: gray;
+    
+}
+
+button {
+    color: whitesmoke;
+    height: 40px;
+    width: 80px;
+   margin: 2px;
+    border-radius: 5px 10px;
+    background:transparent;
+     border-color: whitesmoke;
+
+}
+
+button:hover{
+    background-color: red;
+    color: rgb(248, 245, 245);
+    border:solid rgb(248, 245, 245);
+    transition: 0.4s ease-in-out;
+}
+
+input{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 245px;
+    border-radius: 10px;
+   
+    
+}
