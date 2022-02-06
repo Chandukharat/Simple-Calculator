@@ -6,7 +6,9 @@
     border: solid black;
   
     margin-top: 200px;
-   
+   padding-left: 10px;
+   padding-top: 10px;
+   padding-right: 10px;
     padding-bottom: 10px;
     border-radius: 30px;
     background-color: gray;
